@@ -5,6 +5,7 @@ import { CouterModule } from './counter/couter.module';
 import { HeroesModule } from './heroes/heroes.module';
 
 import { AppComponent } from './app.component';
+import { DbzModule } from './dbz/dbz.module';
 
 
 
@@ -18,6 +19,7 @@ import { AppComponent } from './app.component';
     BrowserModule,
     CouterModule,
     HeroesModule,
+    DbzModule
 
   ],
   providers: [],
